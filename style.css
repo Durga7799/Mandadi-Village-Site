@@ -77,3 +77,12 @@ body {
   background-repeat:no-repeat ;
   background-attachment: fixed;
 }
+@media (max-width: 768px) {
+  /* Styles for mobile */
+}
+@media (max-width: 480px) {
+  /* Styles for smaller devices */
+  .moving-heading {
+    font-size: 1.5em; /* Smaller font size for mobile */
+  }
+}
